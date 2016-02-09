@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15D21" minimumToolsVersion="Automatic">
+    <entity name="ManagedBabyName" syncable="YES">
+        <attribute name="derivations" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="liked" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="matched" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="meanings" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="origins" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ManagedUser" representedClassName=".ManagedUser" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ManagedBabyName" positionX="-63" positionY="-18" width="128" height="150"/>
+        <element name="ManagedUser" positionX="-54" positionY="45" width="128" height="105"/>
+    </elements>
+</model>
