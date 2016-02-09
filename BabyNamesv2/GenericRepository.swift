@@ -10,6 +10,7 @@ import Foundation
 
 class GenericRepository: GenericRepositoryProtocol {
     let parseRepo = ParseRepository()
+    let babyNameRepo = BabyNameRepository()
     
     func signUp(user: User, result: (Result<Void>) -> Void) {
         parseRepo.signUp(user, result: { (_result) in
@@ -21,14 +22,15 @@ class GenericRepository: GenericRepositoryProtocol {
         return parseRepo.currentUser()
     }
     
-    /*func retrieveAccounts() -> [Account] {
-        //TBD
-        return nil
-    }*/
+    func fetchBabyNames(completionHandler: (babyNames: [BabyName], error: UsersStoreError?) -> Void) {
+        babyNameRepo.fetchBabyNames({ (babyNames, error) in
+            completionHandler(babyNames: babyNames, error: error)
+        })
+    }
 }
 
 protocol GenericRepositoryProtocol {
     func signUp(user: User, result: (Result<Void>) -> Void)
     func currentUser() -> User?
-    //func retrieveAccounts() -> [Account]
+    func fetchBabyNames(completionHandler: (babyNames: [BabyName], error: UsersStoreError?) -> Void)
 }

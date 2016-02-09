@@ -7,6 +7,7 @@ use_frameworks!
 
 target 'BabyNamesv2' do
 	pod 'Parse'
+pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
 end
 
 target 'BabyNamesv2Tests' do

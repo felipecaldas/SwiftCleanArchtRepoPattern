@@ -11,6 +11,20 @@
 		740614571C69958800C935C7 /* UserDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740614561C69958800C935C7 /* UserDataStore.swift */; };
 		7406145C1C699E5A00C935C7 /* ParseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7406145B1C699E5A00C935C7 /* ParseRepository.swift */; };
 		7406145E1C69AC0600C935C7 /* GenericRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7406145D1C69AC0600C935C7 /* GenericRepository.swift */; };
+		7410DA1A1C69FC080078A333 /* ManagedBabyName+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7410DA181C69FC080078A333 /* ManagedBabyName+CoreDataProperties.swift */; };
+		7410DA1B1C69FC080078A333 /* ManagedBabyName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7410DA191C69FC080078A333 /* ManagedBabyName.swift */; };
+		7410DA1E1C69FC730078A333 /* BabyName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7410DA1D1C69FC730078A333 /* BabyName.swift */; };
+		7410DA211C69FDB40078A333 /* BabyNameCoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7410DA201C69FDB40078A333 /* BabyNameCoreDataStore.swift */; };
+		7410DA231C69FDC30078A333 /* BabyNamesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7410DA221C69FDC30078A333 /* BabyNamesAPI.swift */; };
+		7410DA251C69FF270078A333 /* BabyNamesDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7410DA241C69FF270078A333 /* BabyNamesDataStore.swift */; };
+		7410DA271C6A03130078A333 /* BabyNameRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7410DA261C6A03130078A333 /* BabyNameRepository.swift */; };
+		7410DA2A1C6A07560078A333 /* HTTPUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7410DA291C6A07560078A333 /* HTTPUtils.swift */; };
+		7410DA331C6A0A2F0078A333 /* ShowBabyNamesConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7410DA2C1C6A0A2F0078A333 /* ShowBabyNamesConfigurator.swift */; };
+		7410DA341C6A0A2F0078A333 /* ShowBabyNamesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7410DA2D1C6A0A2F0078A333 /* ShowBabyNamesInteractor.swift */; };
+		7410DA351C6A0A2F0078A333 /* ShowBabyNamesModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7410DA2E1C6A0A2F0078A333 /* ShowBabyNamesModels.swift */; };
+		7410DA361C6A0A2F0078A333 /* ShowBabyNamesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7410DA2F1C6A0A2F0078A333 /* ShowBabyNamesPresenter.swift */; };
+		7410DA371C6A0A2F0078A333 /* ShowBabyNamesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7410DA301C6A0A2F0078A333 /* ShowBabyNamesRouter.swift */; };
+		7410DA381C6A0A2F0078A333 /* ShowBabyNamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7410DA311C6A0A2F0078A333 /* ShowBabyNamesViewController.swift */; };
 		7438D3501C6719E700A63066 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7438D34F1C6719E700A63066 /* AppDelegate.swift */; };
 		7438D3521C6719E700A63066 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7438D3511C6719E700A63066 /* ViewController.swift */; };
 		7438D3551C6719E700A63066 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7438D3531C6719E700A63066 /* Main.storyboard */; };
@@ -19,20 +33,6 @@
 		7438D35D1C6719E700A63066 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7438D35B1C6719E700A63066 /* LaunchScreen.storyboard */; };
 		7438D3681C6719E700A63066 /* BabyNamesv2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7438D3671C6719E700A63066 /* BabyNamesv2Tests.swift */; };
 		7438D3731C6719E700A63066 /* BabyNamesv2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7438D3721C6719E700A63066 /* BabyNamesv2UITests.swift */; };
-		7490D8101C6725F300ABEF6B /* RetrieveBabyNamesConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7490D8091C6725F300ABEF6B /* RetrieveBabyNamesConfigurator.swift */; };
-		7490D8111C6725F300ABEF6B /* RetrieveBabyNamesConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7490D8091C6725F300ABEF6B /* RetrieveBabyNamesConfigurator.swift */; };
-		7490D8121C6725F300ABEF6B /* RetrieveBabyNamesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7490D80A1C6725F300ABEF6B /* RetrieveBabyNamesInteractor.swift */; };
-		7490D8131C6725F300ABEF6B /* RetrieveBabyNamesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7490D80A1C6725F300ABEF6B /* RetrieveBabyNamesInteractor.swift */; };
-		7490D8141C6725F300ABEF6B /* RetrieveBabyNamesModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7490D80B1C6725F300ABEF6B /* RetrieveBabyNamesModels.swift */; };
-		7490D8151C6725F300ABEF6B /* RetrieveBabyNamesModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7490D80B1C6725F300ABEF6B /* RetrieveBabyNamesModels.swift */; };
-		7490D8161C6725F300ABEF6B /* RetrieveBabyNamesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7490D80C1C6725F300ABEF6B /* RetrieveBabyNamesPresenter.swift */; };
-		7490D8171C6725F300ABEF6B /* RetrieveBabyNamesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7490D80C1C6725F300ABEF6B /* RetrieveBabyNamesPresenter.swift */; };
-		7490D8181C6725F300ABEF6B /* RetrieveBabyNamesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7490D80D1C6725F300ABEF6B /* RetrieveBabyNamesRouter.swift */; };
-		7490D8191C6725F300ABEF6B /* RetrieveBabyNamesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7490D80D1C6725F300ABEF6B /* RetrieveBabyNamesRouter.swift */; };
-		7490D81A1C6725F300ABEF6B /* RetrieveBabyNamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7490D80E1C6725F300ABEF6B /* RetrieveBabyNamesViewController.swift */; };
-		7490D81B1C6725F300ABEF6B /* RetrieveBabyNamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7490D80E1C6725F300ABEF6B /* RetrieveBabyNamesViewController.swift */; };
-		7490D81C1C6725F300ABEF6B /* RetrieveBabyNamesWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7490D80F1C6725F300ABEF6B /* RetrieveBabyNamesWorker.swift */; };
-		7490D81D1C6725F300ABEF6B /* RetrieveBabyNamesWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7490D80F1C6725F300ABEF6B /* RetrieveBabyNamesWorker.swift */; };
 		7490D8251C67268800ABEF6B /* CreateUserConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7490D81E1C67268800ABEF6B /* CreateUserConfigurator.swift */; };
 		7490D8261C67268800ABEF6B /* CreateUserConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7490D81E1C67268800ABEF6B /* CreateUserConfigurator.swift */; };
 		7490D8271C67268800ABEF6B /* CreateUserInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7490D81F1C67268800ABEF6B /* CreateUserInteractor.swift */; };
@@ -45,8 +45,6 @@
 		7490D82E1C67268800ABEF6B /* CreateUserRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7490D8221C67268800ABEF6B /* CreateUserRouter.swift */; };
 		7490D82F1C67268800ABEF6B /* CreateUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7490D8231C67268800ABEF6B /* CreateUserViewController.swift */; };
 		7490D8301C67268800ABEF6B /* CreateUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7490D8231C67268800ABEF6B /* CreateUserViewController.swift */; };
-		7490D8381C67337F00ABEF6B /* UsersAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7490D8371C67337F00ABEF6B /* UsersAPI.swift */; };
-		7490D8391C67337F00ABEF6B /* UsersAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7490D8371C67337F00ABEF6B /* UsersAPI.swift */; };
 		7490D83B1C67339F00ABEF6B /* UsersWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7490D83A1C67339F00ABEF6B /* UsersWorker.swift */; };
 		7490D83C1C67339F00ABEF6B /* UsersWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7490D83A1C67339F00ABEF6B /* UsersWorker.swift */; };
 		7490D83F1C6733E800ABEF6B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7490D83E1C6733E800ABEF6B /* User.swift */; };
@@ -83,6 +81,20 @@
 		740614561C69958800C935C7 /* UserDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataStore.swift; sourceTree = "<group>"; };
 		7406145B1C699E5A00C935C7 /* ParseRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseRepository.swift; sourceTree = "<group>"; };
 		7406145D1C69AC0600C935C7 /* GenericRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericRepository.swift; sourceTree = "<group>"; };
+		7410DA181C69FC080078A333 /* ManagedBabyName+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ManagedBabyName+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7410DA191C69FC080078A333 /* ManagedBabyName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagedBabyName.swift; sourceTree = "<group>"; };
+		7410DA1D1C69FC730078A333 /* BabyName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BabyName.swift; sourceTree = "<group>"; };
+		7410DA201C69FDB40078A333 /* BabyNameCoreDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BabyNameCoreDataStore.swift; sourceTree = "<group>"; };
+		7410DA221C69FDC30078A333 /* BabyNamesAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BabyNamesAPI.swift; sourceTree = "<group>"; };
+		7410DA241C69FF270078A333 /* BabyNamesDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BabyNamesDataStore.swift; sourceTree = "<group>"; };
+		7410DA261C6A03130078A333 /* BabyNameRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BabyNameRepository.swift; sourceTree = "<group>"; };
+		7410DA291C6A07560078A333 /* HTTPUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPUtils.swift; sourceTree = "<group>"; };
+		7410DA2C1C6A0A2F0078A333 /* ShowBabyNamesConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowBabyNamesConfigurator.swift; sourceTree = "<group>"; };
+		7410DA2D1C6A0A2F0078A333 /* ShowBabyNamesInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowBabyNamesInteractor.swift; sourceTree = "<group>"; };
+		7410DA2E1C6A0A2F0078A333 /* ShowBabyNamesModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowBabyNamesModels.swift; sourceTree = "<group>"; };
+		7410DA2F1C6A0A2F0078A333 /* ShowBabyNamesPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowBabyNamesPresenter.swift; sourceTree = "<group>"; };
+		7410DA301C6A0A2F0078A333 /* ShowBabyNamesRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowBabyNamesRouter.swift; sourceTree = "<group>"; };
+		7410DA311C6A0A2F0078A333 /* ShowBabyNamesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowBabyNamesViewController.swift; sourceTree = "<group>"; };
 		7438D34C1C6719E700A63066 /* BabyNamesv2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyNamesv2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7438D34F1C6719E700A63066 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7438D3511C6719E700A63066 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,20 +109,12 @@
 		7438D36E1C6719E700A63066 /* BabyNamesv2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyNamesv2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7438D3721C6719E700A63066 /* BabyNamesv2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyNamesv2UITests.swift; sourceTree = "<group>"; };
 		7438D3741C6719E700A63066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7490D8091C6725F300ABEF6B /* RetrieveBabyNamesConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetrieveBabyNamesConfigurator.swift; sourceTree = "<group>"; };
-		7490D80A1C6725F300ABEF6B /* RetrieveBabyNamesInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetrieveBabyNamesInteractor.swift; sourceTree = "<group>"; };
-		7490D80B1C6725F300ABEF6B /* RetrieveBabyNamesModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetrieveBabyNamesModels.swift; sourceTree = "<group>"; };
-		7490D80C1C6725F300ABEF6B /* RetrieveBabyNamesPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetrieveBabyNamesPresenter.swift; sourceTree = "<group>"; };
-		7490D80D1C6725F300ABEF6B /* RetrieveBabyNamesRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetrieveBabyNamesRouter.swift; sourceTree = "<group>"; };
-		7490D80E1C6725F300ABEF6B /* RetrieveBabyNamesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetrieveBabyNamesViewController.swift; sourceTree = "<group>"; };
-		7490D80F1C6725F300ABEF6B /* RetrieveBabyNamesWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetrieveBabyNamesWorker.swift; sourceTree = "<group>"; };
 		7490D81E1C67268800ABEF6B /* CreateUserConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateUserConfigurator.swift; sourceTree = "<group>"; };
 		7490D81F1C67268800ABEF6B /* CreateUserInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateUserInteractor.swift; sourceTree = "<group>"; };
 		7490D8201C67268800ABEF6B /* CreateUserModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateUserModels.swift; sourceTree = "<group>"; };
 		7490D8211C67268800ABEF6B /* CreateUserPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateUserPresenter.swift; sourceTree = "<group>"; };
 		7490D8221C67268800ABEF6B /* CreateUserRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateUserRouter.swift; sourceTree = "<group>"; };
 		7490D8231C67268800ABEF6B /* CreateUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateUserViewController.swift; sourceTree = "<group>"; };
-		7490D8371C67337F00ABEF6B /* UsersAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersAPI.swift; sourceTree = "<group>"; };
 		7490D83A1C67339F00ABEF6B /* UsersWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersWorker.swift; sourceTree = "<group>"; };
 		7490D83E1C6733E800ABEF6B /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		7490D8411C67405B00ABEF6B /* UsersCoreDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersCoreDataStore.swift; sourceTree = "<group>"; };
@@ -180,8 +184,50 @@
 			children = (
 				7406145B1C699E5A00C935C7 /* ParseRepository.swift */,
 				7406145D1C69AC0600C935C7 /* GenericRepository.swift */,
+				7410DA261C6A03130078A333 /* BabyNameRepository.swift */,
 			);
 			name = Infrastructure;
+			sourceTree = "<group>";
+		};
+		7410DA1C1C69FC520078A333 /* BabyNames */ = {
+			isa = PBXGroup;
+			children = (
+				7410DA181C69FC080078A333 /* ManagedBabyName+CoreDataProperties.swift */,
+				7410DA191C69FC080078A333 /* ManagedBabyName.swift */,
+				7410DA1D1C69FC730078A333 /* BabyName.swift */,
+				7410DA241C69FF270078A333 /* BabyNamesDataStore.swift */,
+			);
+			name = BabyNames;
+			sourceTree = "<group>";
+		};
+		7410DA1F1C69FD570078A333 /* BabyName */ = {
+			isa = PBXGroup;
+			children = (
+				7410DA201C69FDB40078A333 /* BabyNameCoreDataStore.swift */,
+				7410DA221C69FDC30078A333 /* BabyNamesAPI.swift */,
+			);
+			name = BabyName;
+			sourceTree = "<group>";
+		};
+		7410DA281C6A074B0078A333 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7410DA291C6A07560078A333 /* HTTPUtils.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		7410DA2B1C6A0A180078A333 /* ListBabyNames */ = {
+			isa = PBXGroup;
+			children = (
+				7410DA2C1C6A0A2F0078A333 /* ShowBabyNamesConfigurator.swift */,
+				7410DA2D1C6A0A2F0078A333 /* ShowBabyNamesInteractor.swift */,
+				7410DA2E1C6A0A2F0078A333 /* ShowBabyNamesModels.swift */,
+				7410DA2F1C6A0A2F0078A333 /* ShowBabyNamesPresenter.swift */,
+				7410DA301C6A0A2F0078A333 /* ShowBabyNamesRouter.swift */,
+				7410DA311C6A0A2F0078A333 /* ShowBabyNamesViewController.swift */,
+			);
+			name = ListBabyNames;
 			sourceTree = "<group>";
 		};
 		7438D3431C6719E700A63066 = {
@@ -209,6 +255,7 @@
 		7438D34E1C6719E700A63066 /* BabyNamesv2 */ = {
 			isa = PBXGroup;
 			children = (
+				7410DA281C6A074B0078A333 /* Utils */,
 				740614581C699CE900C935C7 /* Infrastructure */,
 				7490D8351C67334B00ABEF6B /* Services */,
 				7490D8341C67334400ABEF6B /* Models */,
@@ -246,7 +293,7 @@
 		7438D3801C671A1400A63066 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				7490D8081C67240F00ABEF6B /* RetrieveBabyNames */,
+				7410DA2B1C6A0A180078A333 /* ListBabyNames */,
 				7438D3811C671A6B00A63066 /* CreateUser */,
 			);
 			name = Scenes;
@@ -265,20 +312,6 @@
 			name = CreateUser;
 			sourceTree = "<group>";
 		};
-		7490D8081C67240F00ABEF6B /* RetrieveBabyNames */ = {
-			isa = PBXGroup;
-			children = (
-				7490D8091C6725F300ABEF6B /* RetrieveBabyNamesConfigurator.swift */,
-				7490D80A1C6725F300ABEF6B /* RetrieveBabyNamesInteractor.swift */,
-				7490D80B1C6725F300ABEF6B /* RetrieveBabyNamesModels.swift */,
-				7490D80C1C6725F300ABEF6B /* RetrieveBabyNamesPresenter.swift */,
-				7490D80D1C6725F300ABEF6B /* RetrieveBabyNamesRouter.swift */,
-				7490D80E1C6725F300ABEF6B /* RetrieveBabyNamesViewController.swift */,
-				7490D80F1C6725F300ABEF6B /* RetrieveBabyNamesWorker.swift */,
-			);
-			name = RetrieveBabyNames;
-			sourceTree = "<group>";
-		};
 		7490D8331C67333B00ABEF6B /* Workers */ = {
 			isa = PBXGroup;
 			children = (
@@ -290,6 +323,7 @@
 		7490D8341C67334400ABEF6B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7410DA1C1C69FC520078A333 /* BabyNames */,
 				740614551C69957600C935C7 /* User */,
 			);
 			name = Models;
@@ -298,6 +332,7 @@
 		7490D8351C67334B00ABEF6B /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				7410DA1F1C69FD570078A333 /* BabyName */,
 				7490D8361C67336900ABEF6B /* User */,
 			);
 			name = Services;
@@ -306,7 +341,6 @@
 		7490D8361C67336900ABEF6B /* User */ = {
 			isa = PBXGroup;
 			children = (
-				7490D8371C67337F00ABEF6B /* UsersAPI.swift */,
 				7490D8411C67405B00ABEF6B /* UsersCoreDataStore.swift */,
 				7490D84A1C675D4900ABEF6B /* UsersMemStore.swift */,
 			);
@@ -496,31 +530,37 @@
 			buildActionMask = 2147483647;
 			files = (
 				7438D3521C6719E700A63066 /* ViewController.swift in Sources */,
+				7410DA231C69FDC30078A333 /* BabyNamesAPI.swift in Sources */,
+				7410DA341C6A0A2F0078A333 /* ShowBabyNamesInteractor.swift in Sources */,
 				7490D82D1C67268800ABEF6B /* CreateUserRouter.swift in Sources */,
-				7490D8181C6725F300ABEF6B /* RetrieveBabyNamesRouter.swift in Sources */,
-				7490D8161C6725F300ABEF6B /* RetrieveBabyNamesPresenter.swift in Sources */,
+				7410DA1A1C69FC080078A333 /* ManagedBabyName+CoreDataProperties.swift in Sources */,
+				7410DA211C69FDB40078A333 /* BabyNameCoreDataStore.swift in Sources */,
+				7410DA361C6A0A2F0078A333 /* ShowBabyNamesPresenter.swift in Sources */,
 				7490D82B1C67268800ABEF6B /* CreateUserPresenter.swift in Sources */,
 				7490D8461C67585100ABEF6B /* ManagedUser+CoreDataProperties.swift in Sources */,
+				7410DA331C6A0A2F0078A333 /* ShowBabyNamesConfigurator.swift in Sources */,
+				7410DA381C6A0A2F0078A333 /* ShowBabyNamesViewController.swift in Sources */,
 				7490D8481C67585100ABEF6B /* ManagedUser.swift in Sources */,
 				7490D83B1C67339F00ABEF6B /* UsersWorker.swift in Sources */,
+				7410DA351C6A0A2F0078A333 /* ShowBabyNamesModels.swift in Sources */,
 				7406145C1C699E5A00C935C7 /* ParseRepository.swift in Sources */,
-				7490D8101C6725F300ABEF6B /* RetrieveBabyNamesConfigurator.swift in Sources */,
 				7490D83F1C6733E800ABEF6B /* User.swift in Sources */,
+				7410DA251C69FF270078A333 /* BabyNamesDataStore.swift in Sources */,
+				7410DA1E1C69FC730078A333 /* BabyName.swift in Sources */,
+				7410DA271C6A03130078A333 /* BabyNameRepository.swift in Sources */,
 				7490D8291C67268800ABEF6B /* CreateUserModels.swift in Sources */,
 				7406145E1C69AC0600C935C7 /* GenericRepository.swift in Sources */,
 				7490D84B1C675D4900ABEF6B /* UsersMemStore.swift in Sources */,
 				740614571C69958800C935C7 /* UserDataStore.swift in Sources */,
-				7490D81C1C6725F300ABEF6B /* RetrieveBabyNamesWorker.swift in Sources */,
+				7410DA1B1C69FC080078A333 /* ManagedBabyName.swift in Sources */,
 				7490D8251C67268800ABEF6B /* CreateUserConfigurator.swift in Sources */,
-				7490D8141C6725F300ABEF6B /* RetrieveBabyNamesModels.swift in Sources */,
-				7490D8121C6725F300ABEF6B /* RetrieveBabyNamesInteractor.swift in Sources */,
+				7410DA371C6A0A2F0078A333 /* ShowBabyNamesRouter.swift in Sources */,
 				7490D82F1C67268800ABEF6B /* CreateUserViewController.swift in Sources */,
 				7438D3581C6719E700A63066 /* BabyNamesv2.xcdatamodeld in Sources */,
+				7410DA2A1C6A07560078A333 /* HTTPUtils.swift in Sources */,
 				7490D8421C67405B00ABEF6B /* UsersCoreDataStore.swift in Sources */,
-				7490D81A1C6725F300ABEF6B /* RetrieveBabyNamesViewController.swift in Sources */,
 				7438D3501C6719E700A63066 /* AppDelegate.swift in Sources */,
 				7490D8271C67268800ABEF6B /* CreateUserInteractor.swift in Sources */,
-				7490D8381C67337F00ABEF6B /* UsersAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,12 +568,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7490D8151C6725F300ABEF6B /* RetrieveBabyNamesModels.swift in Sources */,
-				7490D8391C67337F00ABEF6B /* UsersAPI.swift in Sources */,
-				7490D8191C6725F300ABEF6B /* RetrieveBabyNamesRouter.swift in Sources */,
-				7490D81D1C6725F300ABEF6B /* RetrieveBabyNamesWorker.swift in Sources */,
 				7490D8301C67268800ABEF6B /* CreateUserViewController.swift in Sources */,
-				7490D8171C6725F300ABEF6B /* RetrieveBabyNamesPresenter.swift in Sources */,
 				7490D8261C67268800ABEF6B /* CreateUserConfigurator.swift in Sources */,
 				7490D8281C67268800ABEF6B /* CreateUserInteractor.swift in Sources */,
 				7438D3681C6719E700A63066 /* BabyNamesv2Tests.swift in Sources */,
@@ -542,12 +577,9 @@
 				7490D84C1C675D4900ABEF6B /* UsersMemStore.swift in Sources */,
 				7490D83C1C67339F00ABEF6B /* UsersWorker.swift in Sources */,
 				7490D8491C67585100ABEF6B /* ManagedUser.swift in Sources */,
-				7490D8111C6725F300ABEF6B /* RetrieveBabyNamesConfigurator.swift in Sources */,
 				7490D8471C67585100ABEF6B /* ManagedUser+CoreDataProperties.swift in Sources */,
 				7490D82A1C67268800ABEF6B /* CreateUserModels.swift in Sources */,
 				7490D8401C6733E800ABEF6B /* User.swift in Sources */,
-				7490D81B1C6725F300ABEF6B /* RetrieveBabyNamesViewController.swift in Sources */,
-				7490D8131C6725F300ABEF6B /* RetrieveBabyNamesInteractor.swift in Sources */,
 				7490D82E1C67268800ABEF6B /* CreateUserRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

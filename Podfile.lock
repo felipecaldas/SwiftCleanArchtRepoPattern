@@ -2,12 +2,24 @@ PODS:
   - Bolts/Tasks (1.6.0)
   - Parse (1.12.0):
     - Bolts/Tasks (~> 1.5)
+  - SwiftyJSON (2.3.2)
 
 DEPENDENCIES:
   - Parse
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: 42bdb102d2624b143c07850ebdc1537d5b6579b6
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
 
 SPEC CHECKSUMS:
   Bolts: f52a250053bb517ca874523c3913776359ab3def
   Parse: de2c52a9a1421b91ae7594ab8ce191afd184f19b
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
 
 COCOAPODS: 0.39.0
